@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/gencat/decidim-verifications-members_picker.git
+  revision: 47b3f24696e713364d71265197cab6cfbc8257f0
+  branch: feat/init-decidim-verifications-members_picker
+  specs:
+    decidim-verifications-members_picker (0.0.1)
+      decidim-core (>= 0.16.0)
+      decidim-verifications (>= 0.16.0)
+
 PATH
   remote: decidim-admin-extended
   specs:
@@ -825,6 +834,7 @@ DEPENDENCIES
   decidim-selectable-news!
   decidim-theme!
   decidim-type!
+  decidim-verifications-members_picker!
   delayed_job_active_record
   faker (>= 1.8.4)
   figaro (>= 1.1.1)

@@ -19,6 +19,7 @@ gem 'decidim-admin-search_user', path: 'decidim-admin-search_user'
 #### Custom gems and modifciations block end ####
 
 gem 'decidim-idcat_mobil', "~> 0.0.3"
+gem 'decidim-verifications-members_picker', git: 'https://github.com/gencat/decidim-verifications-members_picker.git', branch: 'feat/init-decidim-verifications-members_picker'
 
 gem "puma", "~> 3.0"
 gem "uglifier", "~> 4.0.0"
