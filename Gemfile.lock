@@ -1,20 +1,7 @@
 GIT
-  remote: https://github.com/gencat/decidim-verifications-members_picker.git
-  revision: c72facbc79dd4c4d8753a1330a6978ad7259f746
-  tag: 0.0.2
-  specs:
-    decidim-verifications-members_picker (0.0.2)
-      decidim-core (>= 0.16.0)
-      decidim-verifications (>= 0.16.0)
-
-PATH
-  remote: ../decidim-department_admin
-  specs:
-    decidim-department_admin (0.0.1)
-      decidim-core (>= 0.16.1)
-
-PATH
-  remote: ../evolutius_primavera/decidim
+  remote: https://github.com/gencat/decidim
+  revision: 2eea9eb4d5ee989d830b0708482bd81d71fb8390
+  tag: v0.18-dev-selective-newsletter-fix
   specs:
     decidim (0.18.0.dev)
       decidim-accountability (= 0.18.0.dev)
@@ -199,6 +186,21 @@ PATH
       sassc-rails (~> 1.3)
     decidim-verifications (0.18.0.dev)
       decidim-core (= 0.18.0.dev)
+
+GIT
+  remote: https://github.com/gencat/decidim-verifications-members_picker.git
+  revision: c72facbc79dd4c4d8753a1330a6978ad7259f746
+  tag: 0.0.2
+  specs:
+    decidim-verifications-members_picker (0.0.2)
+      decidim-core (>= 0.16.0)
+      decidim-verifications (>= 0.16.0)
+
+PATH
+  remote: ../decidim-department_admin
+  specs:
+    decidim-department_admin (0.0.1)
+      decidim-core (>= 0.16.1)
 
 PATH
   remote: decidim-admin-search_user
